@@ -37,4 +37,4 @@ jobs:
         run: npm i -g surge
         
       - name: Publishing to Surge
-        run: surge adeel_demo145.surge.sh --token ${{secrets.SURGE_TOKEN}}
+        run: surge index.html adeel_demo145.surge.sh --token ${{secrets.SURGE_TOKEN}}
